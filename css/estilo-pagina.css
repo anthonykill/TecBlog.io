@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1em;
+    font-family: 'Arial, sans-serif', 'Arial', sans-serif;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+}
+
+/*Layout*/
+#box-cabecalho {
+    background-color: #04B486;
+    padding: 15px;
+    text-align: center;
+}
+#box-logo, #box-menu {
+    padding: 10px;
+}
+#box-principal {
+    background: #ffffff;
+    width: 90%;
+    margin: 10px auto;
+}
+#box-postagens, #box-lateral{
+    background: #ffffff;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#box-postagens {
+    background-color: #ffffff;
+    width: 70%;
+    float: left;
+    padding-right: 30px;
+}
+#box-lateral {
+    width: 20%;
+    float: right;
+    margin-left: 0px;
+}
+.postegem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+.conteudo-lateral {
+    background: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+#rodape {
+    clear: both;
+    text-align: justify;
+    padding: 15px;
+    background: #04B486;
+}
+
+/*Formatação do Menu*/
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #04B486;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#box-cabecalho a:link, #box-cabecalho a:visited {
+    color: #ffffff;
+    padding: 8px 12px;
+}
+#box-cabecalho a:hover {
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: underline;
+}
+#rodape a:visited {
+    color: black;
+}
+
+/*Formatçãao Geral*/
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    color: #04B486;
+}
+h3 {
+    color: #ffffff;
+    background: #04B486;
+    padding: 5px;
+}
+.branco {
+    color: white;
+}
+.data-postgem {
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
